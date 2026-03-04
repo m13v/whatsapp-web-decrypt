@@ -1,3 +1,8 @@
+---
+name: whatsapp-web-decrypt
+description: "Decrypt WhatsApp Web messages via live crypto.subtle interception with Playwright. Captures AES-CBC encrypted messages, parses protobuf, extracts sender metadata. Analyzes IndexedDB for contacts, groups, and social graph."
+---
+
 # WhatsApp Web Message Decryption & Analysis
 
 Decrypt and read WhatsApp Web messages via live browser interception using Playwright. Intercepts `crypto.subtle.decrypt` to capture plaintext message content, encryption keys, and sender metadata. Also analyzes WhatsApp IndexedDB metadata for contacts, groups, social graph, and communication patterns.
